@@ -4,6 +4,7 @@
 ### Adding an AdsPostX placement to your retail e-commerce site is designed to be a relatively straight-forward process. Your account manager will provide you the integration code for your website or you may obtain it by logging into the AdsPostX dashboard.
 
 The integration code will include elements that identify customers along with other properties that help customize offers that are displayed to them.  
+###
 
 ##CocoaPods
 
