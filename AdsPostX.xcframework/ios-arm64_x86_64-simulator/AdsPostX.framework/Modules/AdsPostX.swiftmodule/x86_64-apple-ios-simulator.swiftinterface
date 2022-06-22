@@ -1,0 +1,31 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name AdsPostX
+@_exported import AdsPostX
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+public enum AdPostxEnvironment {
+  case live
+  case test
+  public static func == (a: AdsPostX.AdPostxEnvironment, b: AdsPostX.AdPostxEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum AdPostxError : Swift.Error {
+  case invalidId
+  case customError(Swift.Error)
+}
+extension AdsPostX.AdPostxError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class AdPostx {
+  public static func initWith(accountId: Swift.String, isLogEnable: Swift.Bool, environment: AdsPostX.AdPostxEnvironment, completion: @escaping (Swift.Result<Swift.Bool, Swift.Error>) -> Swift.Void)
+  public static func showOffers(onLoad: @escaping () -> Swift.Void, onUnload: @escaping () -> Swift.Void)
+  @objc deinit
+}
