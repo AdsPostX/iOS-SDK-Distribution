@@ -5,6 +5,22 @@
 
 The integration code will include elements that identify customers along with other properties that help customize offers that are displayed to them.  
 
+##CocoaPods
+CocoaPods is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate AdsPostX into your Xcode project using CocoaPods, specify it in your Podfile:
+```
+    pod 'AdsPostX', '~> 0.0.1'
+```
+then open terminal go to project home directory and do
+
+```
+    pod install
+```
+OR
+```
+    pod update
+```
+After pod installation complete, open workspace file.
+
 Simply cut and paste the integration code that you obtain from the AdsPostX dashboard OR write init code in application delegate didFinishLaunchingWithOptions method.
 
 ```
