@@ -23,6 +23,14 @@ Simply cut and paste the integration code that you obtain from the AdsPostX dash
         return true
     }
 ```
+when you want to present an offers to users like when user tap on 'button', integrate below code.
+```
+        AdPostx.showOffers {
+            print("on load")
+        } onUnload: {
+            print("on unload")
+        }
+```
 ## Double check your accountId
 
 ### Before continuing, take a look at your integration code as inserted to ensure that the accountId matches your accountId.
