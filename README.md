@@ -21,7 +21,7 @@ CocoaPods is a dependency manager for Cocoa projects. For usage and installation
 ## Integration Guidelines
 
 ```javascript
-pod 'AdsPostX', '~> 0.0.2'
+pod 'AdsPostX', '~> 0.0.3'
 ```
 
 then open terminal go to project home directory and do
