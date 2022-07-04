@@ -7,9 +7,9 @@ If you do not have an account with AdsPostX, you can create one now before conti
 
 ## Adding AdsPostX to your iOS Application
 
-Adding an AdsPostX placement to your retail e-commerce site is designed to be a relatively straight-forward process. 
+Adding an AdsPostX placement to your website or mobile application is designed to be a relatively straight-forward process. 
 
-Your account manager will provide you the integration code for your website or you may obtain it by logging into the AdsPostX dashboard.
+Your account manager will provide you the integration code for your website/mobile application or you may obtain it by logging into the AdsPostX dashboard.
 
 The integration code will include elements that identify customers along with other properties that help customize offers that are displayed to them.  
 
