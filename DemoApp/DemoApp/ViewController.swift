@@ -33,11 +33,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonShowOfferTapped(_ sender: Any) {
-        DispatchQueue.global(qos: .userInitiated).async {
-            print("This is run on a background queue")
-
-       
-        
         AdsPostx.SetEnvironment(.test)
         
             if(self.isSuccess) {
@@ -49,7 +44,6 @@ class ViewController: UIViewController {
                     print("on dismiss")
                 }
             }
-        }
     }
     
 }
