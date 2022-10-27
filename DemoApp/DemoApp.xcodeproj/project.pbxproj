@@ -13,8 +13,8 @@
 		C3237287290A6EDB00E83B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3237285290A6EDB00E83B6F /* Main.storyboard */; };
 		C3237289290A6EDE00E83B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3237288290A6EDE00E83B6F /* Assets.xcassets */; };
 		C323728C290A6EDE00E83B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C323728A290A6EDE00E83B6F /* LaunchScreen.storyboard */; };
-		C32372A7290A7B9900E83B6F /* AdsPostX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32372A5290A7B9400E83B6F /* AdsPostX.xcframework */; };
-		C32372A8290A7B9900E83B6F /* AdsPostX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C32372A5290A7B9400E83B6F /* AdsPostX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C32372AC290A7E8800E83B6F /* AdsPostX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32372AA290A7E4600E83B6F /* AdsPostX.xcframework */; };
+		C32372AD290A7E8800E83B6F /* AdsPostX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C32372AA290A7E4600E83B6F /* AdsPostX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C32372A8290A7B9900E83B6F /* AdsPostX.xcframework in Embed Frameworks */,
+				C32372AD290A7E8800E83B6F /* AdsPostX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,7 +40,7 @@
 		C3237288290A6EDE00E83B6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C323728B290A6EDE00E83B6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C323728D290A6EDE00E83B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C32372A5290A7B9400E83B6F /* AdsPostX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AdsPostX.xcframework; sourceTree = "<group>"; };
+		C32372AA290A7E4600E83B6F /* AdsPostX.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AdsPostX.xcframework; path = ../AdsPostX.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32372A7290A7B9900E83B6F /* AdsPostX.xcframework in Frameworks */,
+				C32372AC290A7E8800E83B6F /* AdsPostX.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +58,7 @@
 		C3237273290A6EDB00E83B6F = {
 			isa = PBXGroup;
 			children = (
-				C32372A5290A7B9400E83B6F /* AdsPostX.xcframework */,
+				C32372AA290A7E4600E83B6F /* AdsPostX.xcframework */,
 				C323727E290A6EDB00E83B6F /* DemoApp */,
 				C323727D290A6EDB00E83B6F /* Products */,
 			);
