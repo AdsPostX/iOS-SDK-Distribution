@@ -6,6 +6,6 @@ framework module AdsPostX {
 }
 
 module AdsPostX.Swift {
-    header "AdsPostX-Swift.h"
-    requires objc
+  header "AdsPostX-Swift.h"
+  requires objc
 }

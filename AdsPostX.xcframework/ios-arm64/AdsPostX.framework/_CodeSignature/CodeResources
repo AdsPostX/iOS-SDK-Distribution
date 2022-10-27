@@ -6,27 +6,23 @@
 	<dict>
 		<key>AdsPostxStoryboard.storyboardc/9g7-j6-whn-view-5VR-ns-o4p.nib</key>
 		<data>
-		MAWEdBFG8fdGL8Ow6Y3naD0K8uQ=
+		KKiQj+EtV4tTANHi4pZ/JAxwfGY=
 		</data>
 		<key>AdsPostxStoryboard.storyboardc/Info.plist</key>
 		<data>
-		bA2XcyUdy+SOyHHOAq0O7/7KEhc=
-		</data>
-		<key>AdsPostxStoryboard.storyboardc/MainNav.nib</key>
-		<data>
-		vbQHWVEjiUStZjtrLV8iuGWFEJk=
+		iJzf/v/LEDjouMu8rxbvP30NYaY=
 		</data>
 		<key>AdsPostxStoryboard.storyboardc/WebViewController.nib</key>
 		<data>
-		B159ErbOEJ3J++NE4YTVy8sk+F4=
+		LaO3AHbklUX9pX2IzA+EglSeFbo=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		PSg3aV/izmMjto3tEMEPRfE7RDY=
+		quj1TQgKtk1G7Lv2+xU16kGl8W8=
 		</data>
 		<key>Headers/AdsPostX-Swift.h</key>
 		<data>
-		rYU5YfcvsuosfQoJpknL9aj73kU=
+		hPHiu7yrFGroiq1IlsRu3ZU5G08=
 		</data>
 		<key>Headers/AdsPostX.h</key>
 		<data>
@@ -34,35 +30,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3/NSibbrD/i94bsOPltfHSb6hNI=
+		60xDW3zw/5nMTqjZ8vUXW4agFFM=
+		</data>
+		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		rwr2BgOPgVcXsf5qC36xn3AkBGo=
+		</data>
+		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		2YLb29ufxgG6zhCSazEQowbMl3Q=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		YefQXW07UK3Kog9TLYbEPLwc+Ag=
+		wfcr9jLuHE1Por1//rb/FhxLVMU=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JCWLSrsgHsINW5kpDfdLy1dSCJw=
+		2YLb29ufxgG6zhCSazEQowbMl3Q=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EqxgqqIeS3j2uhkUAD+GEFJuI+Y=
-		</data>
-		<key>Modules/AdsPostX.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		YefQXW07UK3Kog9TLYbEPLwc+Ag=
-		</data>
-		<key>Modules/AdsPostX.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		JCWLSrsgHsINW5kpDfdLy1dSCJw=
-		</data>
-		<key>Modules/AdsPostX.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		EqxgqqIeS3j2uhkUAD+GEFJuI+Y=
+		0Z8rAOEnhnxblfXbO5SDW37Ll3A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		FwCBb0DCELfTncxwua67OlGG7Jc=
+		YZwf/Q1JbZa+qGgfbGjScXM3LBE=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -71,42 +63,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zI09tHdTqoe87tIcdLy6hVbFfus1FuQfntBhfD7QWtA=
+			YeYN+Bjq9Br7KsZ202xAIudX9In+9qlQboSn/ZVmico=
 			</data>
 		</dict>
 		<key>AdsPostxStoryboard.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/CPX7TFPv8vDfjA2gfC6526SSx3awU4dPXGQ7UdAYAU=
-			</data>
-		</dict>
-		<key>AdsPostxStoryboard.storyboardc/MainNav.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			psUzZln2F4OeGTG39bvcELTRiTdkytWUJIdHl3Mc+Ds=
+			AQISakS/cYk1i2cs759or9VFdzjBCu9AYfekUbRWEtI=
 			</data>
 		</dict>
 		<key>AdsPostxStoryboard.storyboardc/WebViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mxCrJ320U6FGBEihEpl5T6fwWL8Bk0zY51v81mTD1CE=
+			DILQh3ZxIax21q/IHoOh7XeFK8b77Zj/t18fkWffkLA=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9BlKsGLM+NfSzeFKeHBK1MYJeZPGywQMA3iMvD+HSyk=
+			6Q4GI1wIQYDSkWDt5h1kY88YYHf1exZf/cR4k29ClU4=
 			</data>
 		</dict>
 		<key>Headers/AdsPostX-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSL7QYWnztTg/nncSZScwsBkrk/NJZGWPQZb16IQm80=
+			Lwm1q5yAg2RukOgcMqnK1Hb5d93Rzlwwq/xHHG/UyuI=
 			</data>
 		</dict>
 		<key>Headers/AdsPostX.h</key>
@@ -116,53 +101,46 @@
 			R1CJo3Z/cJmperLV6Ce5aLHXltQqpn01hOP/l09vacc=
 			</data>
 		</dict>
+		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cYN5tlQxn+ws9cXDHTHwYyvAH+hHMu1FlS0urOTrCNE=
+			</data>
+		</dict>
+		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wYvd9TDi5oeyexkKC2np27yvAGevsDgVNHnPllar9RU=
+			</data>
+		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Spjr/KdhkrFYBlv+bDvWbzl8htqIPfQ967hUK5pXf/g=
+			+SM1pbYqf8DA1MkY75ZnOoXEkEkte3vZxDq5jewazOk=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6bSTIzgfqd9Ftltq4KqVoVa5EU747VbuIOYX4EbASRs=
+			wYvd9TDi5oeyexkKC2np27yvAGevsDgVNHnPllar9RU=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E6b95L3PDRuTR3kDiaxuIAC2iPBcIqmKcoASNBaWsbI=
-			</data>
-		</dict>
-		<key>Modules/AdsPostX.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Spjr/KdhkrFYBlv+bDvWbzl8htqIPfQ967hUK5pXf/g=
-			</data>
-		</dict>
-		<key>Modules/AdsPostX.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6bSTIzgfqd9Ftltq4KqVoVa5EU747VbuIOYX4EbASRs=
-			</data>
-		</dict>
-		<key>Modules/AdsPostX.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E6b95L3PDRuTR3kDiaxuIAC2iPBcIqmKcoASNBaWsbI=
+			mO9g+3MlI0wlV7FJt9ZIHcWpX8qu2LC86GMAHY/bEKc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bf8PD2Ene03DP3QeZh4ZICCpNJAEKfSsy1Tz2ko3qw8=
+			uiSu4iTRl5DFQKEOnFEtt0nauxOgBWPfD5bQYuF/G60=
 			</data>
 		</dict>
 	</dict>
