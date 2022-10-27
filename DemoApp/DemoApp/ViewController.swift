@@ -33,30 +33,22 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonShowOfferTapped(_ sender: Any) {
+        DispatchQueue.global(qos: .userInitiated).async {
+            print("This is run on a background queue")
+
+       
+        
         AdsPostx.SetEnvironment(.test)
         
-        if(isSuccess) {
-            do {
-                var attributes: [String: Any] = [:]
-                attributes["firstname"] = "john"
-                attributes["lastname"] = "dev"
-                
-                try AdsPostx.showOffers(
-                    presentationStyle: .popup,
-                                        transparent: true,
-                                        margins: (top: 10, bottom: 10, left: 10, right: 10)
-                                        ) {
-                    print("On load")
+            if(self.isSuccess) {
+                AdsPostx.showOffers(presentationStyle: .popup) {
+                    print("on load")
+                } onError: { error in
+                    print(error.description)
                 } onDismiss: {
-                    print("On dismiss")
-                }
-            } catch (let error) {
-                if let error = error as? AdsPostxError {
-                    print("Init sdk failed with \(error.description)")
+                    print("on dismiss")
                 }
             }
-            
-
         }
     }
     
