@@ -34,9 +34,18 @@ class ViewController: UIViewController {
 
     @IBAction func buttonShowOfferTapped(_ sender: Any) {
         AdsPostx.SetEnvironment(.test)
+        var attributes: [String: Any] = [:]
+        attributes["firstname"] = "john"
+        attributes["lastname"] = "dev"
+        attributes["email"] = "johndev@gmail.com"
         
             if(self.isSuccess) {
-                AdsPostx.showOffers(presentationStyle: .popup) {
+                AdsPostx.showOffers(
+                    attributes: attributes,
+                    presentationStyle: .popup,
+                    transparent: true,
+                    margins: (top: UInt(10), bottom: UInt(10), left: UInt(10), right: UInt(10))
+                ) {
                     print("on load")
                 } onError: { error in
                     print(error.description)
