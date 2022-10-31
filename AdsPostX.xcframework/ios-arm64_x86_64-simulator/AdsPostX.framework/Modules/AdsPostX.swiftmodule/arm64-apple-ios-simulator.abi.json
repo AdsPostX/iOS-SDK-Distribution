@@ -1381,6 +1381,35 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8AdsPostX0A5PostxC30supportedInterfaceOrientationsySo26UIInterfaceOrientationMaskVAFFZ",
+            "mangledName": "$s8AdsPostX0A5PostxC30supportedInterfaceOrientationsySo26UIInterfaceOrientationMaskVAFFZ",
+            "moduleName": "AdsPostX",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1864,30 +1893,30 @@
       "value": "\"com.adspostx.sdk\""
     },
     {
-      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/WebViewController.swift",
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 728,
+      "offset": 732,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/WebViewController.swift",
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 963,
+      "offset": 967,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/WebViewController.swift",
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 993,
+      "offset": 997,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/WebViewController.swift",
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1105,
+      "offset": 1106,
       "length": 2,
       "value": "15"
     },

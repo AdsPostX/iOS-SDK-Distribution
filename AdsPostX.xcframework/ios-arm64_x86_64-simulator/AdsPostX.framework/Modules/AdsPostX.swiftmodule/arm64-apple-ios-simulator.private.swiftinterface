@@ -60,6 +60,7 @@ extension AdsPostX.AdsPostxError : Swift.CustomStringConvertible {
   public static func SetEnvironment(_ testEnvironment: AdsPostX.AdPostxEnvironment)
   public static func getEnvironment() -> Swift.String
   public static func showOffers(attributes: Swift.Dictionary<Swift.String, Any>? = nil, presentationStyle: AdsPostX.OfferPresentationStyle, transparent: Swift.Bool = true, margins: (top: Swift.UInt, bottom: Swift.UInt, left: Swift.UInt, right: Swift.UInt) = (5,5,5,5), onLoad: @escaping () -> AdsPostX.AdsPostx.Void, onError: @escaping (AdsPostX.AdsPostxError) -> AdsPostX.AdsPostx.Void, onDismiss: @escaping () -> AdsPostX.AdsPostx.Void)
+  public static func supportedInterfaceOrientations(_ supportedOrientations: UIKit.UIInterfaceOrientationMask) -> UIKit.UIInterfaceOrientationMask
   @objc deinit
 }
 public enum OfferPresentationStyle {
