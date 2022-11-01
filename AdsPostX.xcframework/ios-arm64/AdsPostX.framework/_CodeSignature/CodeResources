@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		quj1TQgKtk1G7Lv2+xU16kGl8W8=
+		HsmVrtkmQ4qn/vwF55Ua4YprPEg=
 		</data>
 		<key>Headers/AdsPostX-Swift.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		60xDW3zw/5nMTqjZ8vUXW4agFFM=
+		zOkvY9ZW3N0Zp7SL/VCV0u2OUHw=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		DyGI1JH9gKOm/dU/agLCJZ0zPx8=
+		rP1PqUxkqdp/NSahlmZv+SpBZ1k=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		g+tQd9czxlv4+9zK8zrUl/au8M8=
+		2kscr00cVP9u/OgG6RYeCHsxWl8=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DyGI1JH9gKOm/dU/agLCJZ0zPx8=
+		rP1PqUxkqdp/NSahlmZv+SpBZ1k=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lqXF/yfFszeitjPNVqDjoG5gCUY=
+		5DLCMjN9w1WMVgP4i5Urky4qsDw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,7 +84,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Q4GI1wIQYDSkWDt5h1kY88YYHf1exZf/cR4k29ClU4=
+			OQfo4Sf7KLhIxoQvm6sZnTWZo6Kk9WVF1SHIq3Tpq3g=
 			</data>
 		</dict>
 		<key>Headers/AdsPostX-Swift.h</key>
@@ -112,28 +112,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G16FsQ3wQxa0kOu5xzM2lNToYY8OVcUfLGegPngR0u8=
+			4u8JbvxA6FnzeI4f67OTtTdRCOqZgNIkRTxjze3FuzI=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cj7D8VxWerHi6qxC42yAExk5QxAAfA4y6iAZh3CRsrc=
+			aql62LkOARqMau84HXiDvWgSMIuweQxj+Kk0JWQoQiE=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G16FsQ3wQxa0kOu5xzM2lNToYY8OVcUfLGegPngR0u8=
+			4u8JbvxA6FnzeI4f67OTtTdRCOqZgNIkRTxjze3FuzI=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5VJgpK2sJp9NrmsX3MXNd/KlqKl/A2JV9FpriuNLAas=
+			RjHmSfFJREgYGRJj0a8u3QIniHYsa0I8O4FHENY172c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		quj1TQgKtk1G7Lv2+xU16kGl8W8=
+		HsmVrtkmQ4qn/vwF55Ua4YprPEg=
 		</data>
 		<key>Headers/AdsPostX-Swift.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6vCu0r7dUaB+US4QODtPr/4kGCM=
+		A42o4Gi62F+8pezz8+kiB/PbGMU=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		G762f9J5kVvLDL85Hr48obr+YXY=
+		QL0WJzQGwY4PT7jvuM8Z5Xs/0yI=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xEndbODyrFGO/7BLpphMMKjTnTI=
+		UBt4fPdMOoWf1dTCYVOq4V+I+yM=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		G762f9J5kVvLDL85Hr48obr+YXY=
+		QL0WJzQGwY4PT7jvuM8Z5Xs/0yI=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4vGwQ3mF86tavFz3JTy7eZPvGnI=
+		puhs+qHZxQvOOCZJ4c3+5K/ckX8=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -58,19 +58,19 @@
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		oimBQJya8jFmizajeSFOr6cTIqQ=
+		Sbb75sPv4yrg86TXwx/aoOj9ack=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nLPFqbND8ZiJETouqSVJtWeYF7g=
+		JUe9+qG30ueRJdRknhyWfr7y42k=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		oimBQJya8jFmizajeSFOr6cTIqQ=
+		Sbb75sPv4yrg86TXwx/aoOj9ack=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OnuW+d3beup/iIpMlDNYa20WPYk=
+		dSXUawFGNMAqjuyZmNyTa8yKS+Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -104,7 +104,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Q4GI1wIQYDSkWDt5h1kY88YYHf1exZf/cR4k29ClU4=
+			OQfo4Sf7KLhIxoQvm6sZnTWZo6Kk9WVF1SHIq3Tpq3g=
 			</data>
 		</dict>
 		<key>Headers/AdsPostX-Swift.h</key>
@@ -132,28 +132,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mrSoG8nSlRWQvUDabQhL1cjUCDbrFuq9UxYTw1Wlbnc=
+			aoOM6mhoB5DUvZXDf/liG207byFDoGAV+b86W1aKtrI=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xp0OawqSySkgIdBI/9tiuH/FIWx2Annk/nrs4D0tvl4=
+			l8xFOjfRQGlFyhZ6eiiiqs/hNLiRUz8PB5OZPboso90=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mrSoG8nSlRWQvUDabQhL1cjUCDbrFuq9UxYTw1Wlbnc=
+			aoOM6mhoB5DUvZXDf/liG207byFDoGAV+b86W1aKtrI=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jHxuWaUyIcVQRbOEItgXtTFbxjNjLJOGGoTGYZNpWTc=
+			tcdcT4weVV3O8uqJ6RoZ03JYFqSRQyBYgipL36AraEM=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -167,28 +167,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z5d1zy2n1D/a2A2vZWz8uG2DFQdbqzksRTtNgqtyc1I=
+			t+9WJbna9u/Ajb2kpUSORQCEaNoybNLDTw+l1/mPovE=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VqVUKyuP77GnltbWPK5Ea5rEQjZSJSCn/YRRDvD7f54=
+			c1SveTJpZyg7FZ8jkFBD3irGg/8aG6SbiWf0EowEFmc=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z5d1zy2n1D/a2A2vZWz8uG2DFQdbqzksRTtNgqtyc1I=
+			t+9WJbna9u/Ajb2kpUSORQCEaNoybNLDTw+l1/mPovE=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RdK/rOIDS6u4SU4D2q/v2QpnE+kwruwHfBKuEu/rTDQ=
+			keOPRjNEjexM4xEL0gmcqhl/VL9XTe46xeE6eCuGipA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
