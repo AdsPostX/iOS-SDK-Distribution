@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		tbTWxwRK3CFmUllOoJ7lbytds8U=
+		jyQ/eN4A9Rr/TxV4NfWBPwAEh3Q=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		LIieppGp0ObWt98jTCIXweG5FlY=
+		lqXF/yfFszeitjPNVqDjoG5gCUY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -105,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			o++rEXRYuswKOA+oP59FPP2+ADGkx1m9k0chvuBPFOY=
+			Y3JUSXzhcK+PLj7ZIoBZwfWlRG+fpSIY7BaUjqYVbFc=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XxrNmtmyRxVrnENOB3HKUUn517cDdRNrmtS7JmtRyLg=
+			5VJgpK2sJp9NrmsX3MXNd/KlqKl/A2JV9FpriuNLAas=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
