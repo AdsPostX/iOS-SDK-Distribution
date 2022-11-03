@@ -40,8 +40,7 @@ class ViewController: UIViewController {
         attributes["email"] = "johndev@gmail.com"
         
             if(self.isSuccess) {
-                AdsPostx.showOffers(
-                    attributes: attributes,
+                AdsPostx.showOffers(                    
                     presentationStyle: .popup,
                     transparent: true,
                     margins: (top: UInt(10), bottom: UInt(10), left: UInt(10), right: UInt(10))
