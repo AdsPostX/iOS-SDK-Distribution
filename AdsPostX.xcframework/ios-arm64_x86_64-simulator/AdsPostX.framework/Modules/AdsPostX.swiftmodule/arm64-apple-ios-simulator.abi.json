@@ -50,6 +50,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdsPostX",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -456,6 +466,80 @@
             "declKind": "EnumElement",
             "usr": "s:8AdsPostX0A10PostxErrorO13initSDKFailedyA2CmF",
             "mangledName": "$s8AdsPostX0A10PostxErrorO13initSDKFailedyA2CmF",
+            "moduleName": "AdsPostX"
+          },
+          {
+            "kind": "Var",
+            "name": "isAdViewed",
+            "printedName": "isAdViewed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsPostX.AdsPostxError.Type) -> AdsPostX.AdsPostxError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsPostxError",
+                    "printedName": "AdsPostX.AdsPostxError",
+                    "usr": "s:8AdsPostX0A10PostxErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsPostX.AdsPostxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsPostxError",
+                        "printedName": "AdsPostX.AdsPostxError",
+                        "usr": "s:8AdsPostX0A10PostxErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdsPostX0A10PostxErrorO10isAdViewedyA2CmF",
+            "mangledName": "$s8AdsPostX0A10PostxErrorO10isAdViewedyA2CmF",
+            "moduleName": "AdsPostX"
+          },
+          {
+            "kind": "Var",
+            "name": "prefetchFailed",
+            "printedName": "prefetchFailed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsPostX.AdsPostxError.Type) -> AdsPostX.AdsPostxError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsPostxError",
+                    "printedName": "AdsPostX.AdsPostxError",
+                    "usr": "s:8AdsPostX0A10PostxErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsPostX.AdsPostxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsPostxError",
+                        "printedName": "AdsPostX.AdsPostxError",
+                        "usr": "s:8AdsPostX0A10PostxErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdsPostX0A10PostxErrorO14prefetchFailedyA2CmF",
+            "mangledName": "$s8AdsPostX0A10PostxErrorO14prefetchFailedyA2CmF",
             "moduleName": "AdsPostX"
           },
           {
@@ -867,6 +951,43 @@
           },
           {
             "kind": "Var",
+            "name": "allOffersViewed",
+            "printedName": "allOffersViewed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsPostX.AdsPostxError.Type) -> AdsPostX.AdsPostxError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsPostxError",
+                    "printedName": "AdsPostX.AdsPostxError",
+                    "usr": "s:8AdsPostX0A10PostxErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsPostX.AdsPostxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsPostxError",
+                        "printedName": "AdsPostX.AdsPostxError",
+                        "usr": "s:8AdsPostX0A10PostxErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdsPostX0A10PostxErrorO15allOffersViewedyA2CmF",
+            "mangledName": "$s8AdsPostX0A10PostxErrorO15allOffersViewedyA2CmF",
+            "moduleName": "AdsPostX"
+          },
+          {
+            "kind": "Var",
             "name": "customError",
             "printedName": "customError",
             "children": [
@@ -1070,7 +1191,7 @@
           {
             "kind": "Function",
             "name": "initWith",
-            "printedName": "initWith(accountId:attributes:completion:)",
+            "printedName": "initWith(accountId:attributes:shouldPrefetch:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1112,6 +1233,13 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Swift.Result<(), Swift.Error>) -> ()",
@@ -1144,14 +1272,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8AdsPostX0A5PostxC8initWith9accountId10attributes10completionySS_SDySSypGSgys6ResultOyyts5Error_pGctFZ",
-            "mangledName": "$s8AdsPostX0A5PostxC8initWith9accountId10attributes10completionySS_SDySSypGSgys6ResultOyyts5Error_pGctFZ",
+            "usr": "s:8AdsPostX0A5PostxC8initWith9accountId10attributes14shouldPrefetch10completionySS_SDySSypGSgSbys6ResultOyyts5Error_pGctFZ",
+            "mangledName": "$s8AdsPostX0A5PostxC8initWith9accountId10attributes14shouldPrefetch10completionySS_SDySSypGSgSbys6ResultOyyts5Error_pGctFZ",
             "moduleName": "AdsPostX",
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1237,40 +1364,12 @@
           {
             "kind": "Function",
             "name": "showOffers",
-            "printedName": "showOffers(attributes:presentationStyle:transparent:margins:onLoad:onError:onDismiss:)",
+            "printedName": "showOffers(presentationStyle:transparent:margins:onLoad:onError:onDismiss:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Swift.String : Any]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1371,8 +1470,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8AdsPostX0A5PostxC10showOffers10attributes17presentationStyle11transparent7margins6onLoad0K5Error0K7DismissySDySSypGSg_AA017OfferPresentationH0OSbSu3top_Su6bottomSu4leftSu5righttyycyAA0acM0OcyyctFZ",
-            "mangledName": "$s8AdsPostX0A5PostxC10showOffers10attributes17presentationStyle11transparent7margins6onLoad0K5Error0K7DismissySDySSypGSg_AA017OfferPresentationH0OSbSu3top_Su6bottomSu4leftSu5righttyycyAA0acM0OcyyctFZ",
+            "usr": "s:8AdsPostX0A5PostxC10showOffers17presentationStyle11transparent7margins6onLoad0J5Error0J7DismissyAA017OfferPresentationG0O_SbSu3top_Su6bottomSu4leftSu5righttyycyAA0acL0OcyyctFZ",
+            "mangledName": "$s8AdsPostX0A5PostxC10showOffers17presentationStyle11transparent7margins6onLoad0J5Error0J7DismissyAA017OfferPresentationG0O_SbSu3top_Su6bottomSu4leftSu5righttyycyAA0acL0OcyyctFZ",
             "moduleName": "AdsPostX",
             "static": true,
             "declAttributes": [
@@ -1902,23 +2001,44 @@
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 967,
+      "offset": 1052,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 997,
+      "offset": 1082,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1106,
+      "offset": 1191,
       "length": 2,
       "value": "15"
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1249,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
+      "kind": "StringLiteral",
+      "offset": 140,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 12,
+      "value": "\"target_url\""
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Enums\/AdPostxEnvironment.swift",
@@ -1977,6 +2097,13 @@
       "value": "\"ad_taken\""
     },
     {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Messages.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 14,
+      "value": "\"no_ads_found\""
+    },
+    {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
       "kind": "BooleanLiteral",
       "offset": 170,
@@ -1993,14 +2120,56 @@
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
       "kind": "StringLiteral",
-      "offset": 495,
+      "offset": 535,
+      "length": 20,
+      "value": "\"AdsPostxStoryboard\""
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 19,
+      "value": "\"WebViewController\""
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
+      "kind": "BooleanLiteral",
+      "offset": 819,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
+      "kind": "BooleanLiteral",
+      "offset": 865,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
+      "kind": "BooleanLiteral",
+      "offset": 904,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
       "kind": "BooleanLiteral",
-      "offset": 3005,
+      "offset": 1389,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6541,
       "length": 4,
       "value": "true"
     }
