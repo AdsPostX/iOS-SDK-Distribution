@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
     @IBOutlet weak var switchPrefetch: UISwitch!
+    @IBOutlet weak var switchTransparent: UISwitch!
+    
     private var isSuccess = false
     
    
@@ -51,10 +53,10 @@ class ViewController: UIViewController {
         attributes["email"] = "johndev@gmail.com"
         
             if(self.isSuccess) {
-                AdsPostx.showOffers(                    
+                AdsPostx.showOffers(
                     presentationStyle: .popup,
-                    transparent: true,
-                    margins: (top: UInt(10), bottom: UInt(10), left: UInt(10), right: UInt(10))
+                    transparent: switchTransparent.isOn,
+                    margins: (top: UInt(5), bottom: UInt(5), left: UInt(5), right: UInt(5))
                 ) {
                     print("on load")
                 } onError: { error in
