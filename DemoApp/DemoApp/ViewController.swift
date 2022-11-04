@@ -10,15 +10,26 @@ import AdsPostX
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
+    @IBOutlet weak var switchPrefetch: UISwitch!
     private var isSuccess = false
     
+   
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+    }
+
+    @IBAction func btnInitOfferTapped(_ sender: Any) {
         var attributes: [String: Any] = [:]
         attributes["firstname"] = "john"
         attributes["lastname"] = "dev"
-        // Do any additional setup after loading the view.
-        AdsPostx.initWith(accountId: "25") { [weak self] result in
+        loadingIndicator.startAnimating()
+        AdsPostx.initWith(accountId: "25",attributes: attributes,shouldPrefetch: switchPrefetch.isOn) { [weak self] result in
+            DispatchQueue.main.async {
+                self?.loadingIndicator.stopAnimating()
+            }
+            
             switch (result) {
             case .success:
                 self?.isSuccess = true
@@ -31,7 +42,7 @@ class ViewController: UIViewController {
             }
         }
     }
-
+    
     @IBAction func buttonShowOfferTapped(_ sender: Any) {
         AdsPostx.SetEnvironment(.test)
         var attributes: [String: Any] = [:]

@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,26 +18,82 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mI1-ps-cCc">
-                                <rect key="frame" x="136" y="404.66666666666669" width="118" height="35"/>
+                                <rect key="frame" x="120" y="404.66666666666669" width="150" height="35"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="rGt-gt-ndn"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Show Offers"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Show Offers">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="buttonShowOfferTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHZ-p8-D04"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqe-AH-WzG">
+                                <rect key="frame" x="120" y="337.66666666666669" width="150" height="35"/>
+                                <color key="backgroundColor" systemColor="linkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="3gO-sA-7sn"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Init Offer">
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnInitOfferTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kBU-Ph-YHx"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rHJ-sO-AYK">
+                                <rect key="frame" x="132.33333333333334" y="279.66666666666669" width="51" height="31"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PreFetch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWY-eg-OXw">
+                                <rect key="frame" x="31.999999999999993" y="284.66666666666669" width="68.333333333333314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="4It-jU-TZe">
+                                <rect key="frame" x="176.66666666666666" y="471.66666666666669" width="37" height="37"/>
+                                <color key="color" systemColor="systemBackgroundColor"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
+                            <constraint firstItem="mI1-ps-cCc" firstAttribute="top" secondItem="jqe-AH-WzG" secondAttribute="bottom" constant="32" id="0IO-JI-1bV"/>
+                            <constraint firstItem="4It-jU-TZe" firstAttribute="top" secondItem="mI1-ps-cCc" secondAttribute="bottom" constant="32" id="1x5-0h-NOZ"/>
+                            <constraint firstItem="fWY-eg-OXw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="7Zz-pE-LjZ"/>
+                            <constraint firstItem="jqe-AH-WzG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EOs-m8-412"/>
+                            <constraint firstItem="4It-jU-TZe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EsU-Vn-jsL"/>
+                            <constraint firstItem="rHJ-sO-AYK" firstAttribute="centerY" secondItem="fWY-eg-OXw" secondAttribute="centerY" id="IT7-SO-794"/>
                             <constraint firstItem="mI1-ps-cCc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KLc-88-chc"/>
                             <constraint firstItem="mI1-ps-cCc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uec-1D-nXY"/>
+                            <constraint firstItem="jqe-AH-WzG" firstAttribute="top" secondItem="fWY-eg-OXw" secondAttribute="bottom" constant="32" id="jbB-AL-Yc0"/>
+                            <constraint firstItem="rHJ-sO-AYK" firstAttribute="leading" secondItem="fWY-eg-OXw" secondAttribute="trailing" constant="32" id="z3v-4x-Hzf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loadingIndicator" destination="4It-jU-TZe" id="Hd9-BE-bn4"/>
+                        <outlet property="switchPrefetch" destination="rHJ-sO-AYK" id="XqS-hh-3xM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="138" y="4"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

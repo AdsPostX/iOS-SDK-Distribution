@@ -988,6 +988,43 @@
           },
           {
             "kind": "Var",
+            "name": "noOfferFound",
+            "printedName": "noOfferFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsPostX.AdsPostxError.Type) -> AdsPostX.AdsPostxError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsPostxError",
+                    "printedName": "AdsPostX.AdsPostxError",
+                    "usr": "s:8AdsPostX0A10PostxErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsPostX.AdsPostxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsPostxError",
+                        "printedName": "AdsPostX.AdsPostxError",
+                        "usr": "s:8AdsPostX0A10PostxErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdsPostX0A10PostxErrorO12noOfferFoundyA2CmF",
+            "mangledName": "$s8AdsPostX0A10PostxErrorO12noOfferFoundyA2CmF",
+            "moduleName": "AdsPostX"
+          },
+          {
+            "kind": "Var",
             "name": "customError",
             "printedName": "customError",
             "children": [
@@ -2001,28 +2038,28 @@
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1052,
+      "offset": 1096,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1082,
+      "offset": 1126,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1191,
+      "offset": 1235,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1249,
+      "offset": 1293,
       "length": 5,
       "value": "false"
     },
@@ -2169,7 +2206,7 @@
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
       "kind": "BooleanLiteral",
-      "offset": 6541,
+      "offset": 6714,
       "length": 4,
       "value": "true"
     }

@@ -48,6 +48,7 @@ public enum AdsPostxError : Swift.Error {
   case invalidCountry
   case invalidZipCode
   case allOffersViewed
+  case noOfferFound
   case customError(Swift.Error)
 }
 extension AdsPostX.AdsPostxError : Swift.CustomStringConvertible {
