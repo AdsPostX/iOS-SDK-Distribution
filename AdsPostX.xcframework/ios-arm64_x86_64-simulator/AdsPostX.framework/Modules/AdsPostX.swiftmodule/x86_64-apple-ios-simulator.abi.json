@@ -1186,6 +1186,56 @@
           },
           {
             "kind": "Var",
+            "name": "errorWithMessage",
+            "printedName": "errorWithMessage",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AdsPostX.AdsPostxError.Type) -> (Swift.String) -> AdsPostX.AdsPostxError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> AdsPostX.AdsPostxError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsPostxError",
+                        "printedName": "AdsPostX.AdsPostxError",
+                        "usr": "s:8AdsPostX0A10PostxErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AdsPostX.AdsPostxError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsPostxError",
+                        "printedName": "AdsPostX.AdsPostxError",
+                        "usr": "s:8AdsPostX0A10PostxErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8AdsPostX0A10PostxErrorO16errorWithMessageyACSScACmF",
+            "mangledName": "$s8AdsPostX0A10PostxErrorO16errorWithMessageyACSScACmF",
+            "moduleName": "AdsPostX"
+          },
+          {
+            "kind": "Var",
             "name": "description",
             "printedName": "description",
             "children": [
@@ -2271,8 +2321,15 @@
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
+      "kind": "StringLiteral",
+      "offset": 267,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
       "kind": "IntegerLiteral",
-      "offset": 287,
+      "offset": 330,
       "length": 2,
       "value": "10"
     },
@@ -2345,6 +2402,13 @@
       "offset": 429,
       "length": 11,
       "value": "\"ads_found\""
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Messages.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 7,
+      "value": "\"error\""
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
