@@ -1636,7 +1636,7 @@
           {
             "kind": "Function",
             "name": "showOffers",
-            "printedName": "showOffers(presentationStyle:transparent:margins:onLoad:onError:onDismiss:)",
+            "printedName": "showOffers(presentationStyle:transparent:margins:onShow:onError:onDismiss:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1742,8 +1742,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8AdsPostX0A5PostxC10showOffers17presentationStyle11transparent7margins6onLoad0J5Error0J7DismissyAA017OfferPresentationG0O_SbSu3top_Su6bottomSu4leftSu5righttyycyAA0acL0OcyyctFZ",
-            "mangledName": "$s8AdsPostX0A5PostxC10showOffers17presentationStyle11transparent7margins6onLoad0J5Error0J7DismissyAA017OfferPresentationG0O_SbSu3top_Su6bottomSu4leftSu5righttyycyAA0acL0OcyyctFZ",
+            "usr": "s:8AdsPostX0A5PostxC10showOffers17presentationStyle11transparent7margins6onShow0J5Error0J7DismissyAA017OfferPresentationG0O_SbSu3top_Su6bottomSu4leftSu5righttyycyAA0acL0OcyyctFZ",
+            "mangledName": "$s8AdsPostX0A5PostxC10showOffers17presentationStyle11transparent7margins6onShow0J5Error0J7DismissyAA017OfferPresentationG0O_SbSu3top_Su6bottomSu4leftSu5righttyycyAA0acL0OcyyctFZ",
             "moduleName": "AdsPostX",
             "static": true,
             "declAttributes": [

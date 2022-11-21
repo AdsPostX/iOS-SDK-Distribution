@@ -66,7 +66,7 @@ class ViewController: UIViewController {
                 transparent: switchTransparent.isOn,
                 margins: (top: 5, bottom: 5, left: 5, right: 5)
             ) {
-                print("on load")
+                print("on show")
             } onError: { error in
                 print(error.description)
             } onDismiss: {
