@@ -2299,6 +2299,13 @@
       "value": "15"
     },
     {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/webview\/AdsPostXWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1391,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
       "kind": "StringLiteral",
       "offset": 140,
@@ -2308,28 +2315,42 @@
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
       "kind": "StringLiteral",
-      "offset": 182,
+      "offset": 181,
+      "length": 10,
+      "value": "\"settings\""
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 7,
+      "value": "\"delay\""
+    },
+    {
+      "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
       "length": 12,
       "value": "\"target_url\""
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
       "kind": "StringLiteral",
-      "offset": 226,
+      "offset": 310,
       "length": 7,
       "value": "\"total\""
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 351,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/Constants\/Keys.swift",
       "kind": "IntegerLiteral",
-      "offset": 330,
+      "offset": 414,
       "length": 2,
       "value": "10"
     },
@@ -2455,14 +2476,14 @@
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
       "kind": "StringLiteral",
-      "offset": 1020,
+      "offset": 1021,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shivang\/Desktop\/Baajar\/AdsPostx\/iOS-SDK\/AdsPostX\/AdsPostX\/AdsPostx.swift",
       "kind": "BooleanLiteral",
-      "offset": 6500,
+      "offset": 6501,
       "length": 4,
       "value": "true"
     }
