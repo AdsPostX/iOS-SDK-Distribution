@@ -71,6 +71,7 @@ extension AdsPostX.AdsPostxError : Swift.CustomStringConvertible {
   public static func setTimeOut(seconds: Swift.Double)
   public static func showOffers(presentationStyle: AdsPostX.OfferPresentationStyle, transparent: Swift.Bool = true, margins: (top: Swift.UInt, bottom: Swift.UInt, left: Swift.UInt, right: Swift.UInt) = (5,5,5,5), onShow: @escaping () -> AdsPostX.AdsPostx.Void, onError: @escaping (AdsPostX.AdsPostxError) -> AdsPostX.AdsPostx.Void, onDismiss: @escaping () -> AdsPostX.AdsPostx.Void)
   @objc public static func supportedInterfaceOrientations(_ supportedOrientations: UIKit.UIInterfaceOrientationMask) -> UIKit.UIInterfaceOrientationMask
+  public static func getOffers(apiKey: Swift.String, parameters: [Swift.String : Any]?, completion: @escaping (Swift.Result<Any, Swift.Error>) -> AdsPostX.AdsPostx.Void)
   @objc deinit
 }
 public enum OfferPresentationStyle {

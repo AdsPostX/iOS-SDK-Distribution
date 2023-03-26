@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ZGvAcxcBi3KA+tc/vol0t9XoP8M=
+		1WD2/RonkaJSaV9tH0q/mpcjYJw=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		rcLUfUkpT2Sg7JH8trCgh3Akgys=
+		FuhPb/jECcVbDkVP6u+f+pgi51Y=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rcLUfUkpT2Sg7JH8trCgh3Akgys=
+		FuhPb/jECcVbDkVP6u+f+pgi51Y=
 		</data>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xxWOZ8pRlpC0/IIwHR4KvfR4JqA=
+		q5RzkLgEyMFur7CsGufnSrZ2tD4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -105,14 +105,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ph61LbhrFX06pTCReZjuIHBDOJenxmlg778hGfLEYlg=
+			4m3TKDzjj8nF2pqeNeC49F3M81XM0cNq9SZ67zhAY20=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z2lUynyshGerlOaf8fxyo+zyYOQBjfS5w5WeHUHDnwI=
+			6nhjDueOGcIxHqe3RnM6wHRL030CeYLdwr1oYHrp4m4=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z2lUynyshGerlOaf8fxyo+zyYOQBjfS5w5WeHUHDnwI=
+			6nhjDueOGcIxHqe3RnM6wHRL030CeYLdwr1oYHrp4m4=
 			</data>
 		</dict>
 		<key>Modules/AdsPostX.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5dACfyadA+Stk1Pclvq/JjxckLJqokddAX1OAbg9gyA=
+			0CPm3BwAoLrNG1DLuGlmbe24leq0Ob9U1H2urr06rbY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
