@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'AdsPostX'
-  s.version      = '1.0.4'
+  s.version      = '1.0.5'
   s.summary      = 'AdsPostX offers an iOS SDK designed to help you integrate AdsPostX into your iOS mobile application.'
   s.homepage     = 'https://github.com/AdsPostX/iOS-SDK-Distribution'
   s.license      = { :type => 'MIT' }
