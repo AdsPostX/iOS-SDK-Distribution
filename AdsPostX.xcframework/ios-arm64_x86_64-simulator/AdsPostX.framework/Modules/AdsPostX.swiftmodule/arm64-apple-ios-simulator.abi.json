@@ -1793,7 +1793,7 @@
           {
             "kind": "Function",
             "name": "getOffers",
-            "printedName": "getOffers(apiKey:parameters:completion:)",
+            "printedName": "getOffers(accountId:parameters:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1866,8 +1866,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8AdsPostX0A5PostxC9getOffers6apiKey10parameters10completionySS_SDySSypGSgys6ResultOyyps5Error_pGctFZ",
-            "mangledName": "$s8AdsPostX0A5PostxC9getOffers6apiKey10parameters10completionySS_SDySSypGSgys6ResultOyyps5Error_pGctFZ",
+            "usr": "s:8AdsPostX0A5PostxC9getOffers9accountId10parameters10completionySS_SDySSypGSgys6ResultOyyps5Error_pGctFZ",
+            "mangledName": "$s8AdsPostX0A5PostxC9getOffers9accountId10parameters10completionySS_SDySSypGSgys6ResultOyyps5Error_pGctFZ",
             "moduleName": "AdsPostX",
             "static": true,
             "declAttributes": [
