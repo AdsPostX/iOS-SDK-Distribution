@@ -13,8 +13,8 @@
 		C3237287290A6EDB00E83B6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3237285290A6EDB00E83B6F /* Main.storyboard */; };
 		C3237289290A6EDE00E83B6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3237288290A6EDE00E83B6F /* Assets.xcassets */; };
 		C323728C290A6EDE00E83B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C323728A290A6EDE00E83B6F /* LaunchScreen.storyboard */; };
-		C32372B4290AAFBC00E83B6F /* AdsPostX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32372B2290AAFB400E83B6F /* AdsPostX.xcframework */; };
-		C32372B5290AAFBC00E83B6F /* AdsPostX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C32372B2290AAFB400E83B6F /* AdsPostX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C3DA0FF92A7D546E00069BF0 /* AdsPostX.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C32372B2290AAFB400E83B6F /* AdsPostX.xcframework */; };
+		C3DA0FFA2A7D546E00069BF0 /* AdsPostX.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C32372B2290AAFB400E83B6F /* AdsPostX.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C32372B5290AAFBC00E83B6F /* AdsPostX.xcframework in Embed Frameworks */,
+				C3DA0FFA2A7D546E00069BF0 /* AdsPostX.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C32372B4290AAFBC00E83B6F /* AdsPostX.xcframework in Frameworks */,
+				C3DA0FF92A7D546E00069BF0 /* AdsPostX.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

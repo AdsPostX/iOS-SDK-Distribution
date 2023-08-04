@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnInitOfferTapped(_ sender: Any) {
-        AdsPostx.initWith(accountId: "25") { result in
+        AdsPostx.initWith(sdkId: "25") { result in
             switch result {
             case .success():
                 print("SDK init success")
@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func buttonShowOfferTapped(_ sender: Any) {
-        if(self.isLoadSuccess) {
+        if(self.isLoadSuccess) {        
             AdsPostx.showOffers(
                 presentationStyle: .popup,
                 transparent: switchTransparent.isOn,
